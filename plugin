@@ -19,22 +19,22 @@
 -->
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:rim="http://www.blackberry.com/ns/widgets"
-    id="org.apache.cordova.buttons"
+    id="com.herenow.VolumeButtons"
     version="0.0.1">
-    <name>VolumeButtons</name>
-    <description>Phonegap VolumeButtons Plugin</description>
-    <license>Apache 2.0</license>
-    <keywords>Phonegap, Volume, Buttons</keywords>
-
-    <js-module src="www/js/VolumeButtonsConstants.js" name="VolumeButtons">
-        <clobbers target="navigator.VolumeButtons" />
-    </js-module>
-
+    
     <engines>
         <engine name= "cordova" version=">3.1.0" />
     </engines>
+    
+    <name>VolumeButtons</name>
+    <description>Phonegap VolumeButtons Plugin</description>
+    
+    <keywords>Phonegap, Volume, Buttons</keywords>
+
+    <js-module src="www/js/VolumeButtonsConstants.js" name="VolumeButtons">
+        <clobbers target="VolumeButtons" />
+    </js-module>
+
     
     <platform name="ios">
 
