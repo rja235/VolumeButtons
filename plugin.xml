@@ -46,11 +46,11 @@
                 </config-file>
             
             <!-- core VolumeButtons header and source files -->
-            <header-file src="platforms/ios/VolumeButtons/Classes/MainViewController.h"
-            <header-file src="platforms/ios/VolumeButtons/Classes/MainViewController.m"
-            <header-file src="platforms/ios/VolumeButtons/Classes/VolumeButtons.m"
-            <header-file src="platforms/ios/VolumeButtons/Classes/VolumeButtons.h"
-            <header-file src="platforms/ios/VolumeButtons/Classes/MainViewController.xib"
+            <header-file src="platforms/ios/VolumeButtons/Classes/MainViewController.h" />
+            <header-file src="platforms/ios/VolumeButtons/Classes/MainViewController.m" />
+            <header-file src="platforms/ios/VolumeButtons/Classes/VolumeButtons.m" />
+            <header-file src="platforms/ios/VolumeButtons/Classes/VolumeButtons.h" />
+            <header-file src="platforms/ios/VolumeButtons/Classes/MainViewController.xib" />
             
     </platform>
     
