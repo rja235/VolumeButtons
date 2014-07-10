@@ -43,7 +43,7 @@ A Plugin that allows access to the Volume Buttons on the side of the device as w
 
 ## License
 
-Apache License 2.0
+Apache 2.0
 
 
 
