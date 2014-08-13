@@ -33,7 +33,7 @@
     
     <keywords>Phonegap, Volume, Buttons</keywords>
 
-    <js-module src="www/js/VolumeButtonsConstants.js" name="VolumeButtons">
+    <js-module src="www/js/VolumeButtons.js" name="VolumeButtons">
         <clobbers target="VolumeButtons" />
     </js-module>
 
